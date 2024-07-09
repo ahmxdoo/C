@@ -17,7 +17,7 @@ int main(){
         } else if (guess < number) {
             printf("Too low\n");
         } else {
-            printf("Congratulations! You guessed the number in %d tries.\n");
+            printf("Congratulations! You guessed the number in %d tries.\n",tries);
         }
 
     } while (guess != number);
